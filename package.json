@@ -1,0 +1,18 @@
+{
+  "name": "debian-installation-lerntrainer",
+  "version": "1.0.0",
+  "description": "Kleine, moderne Lernkartei-Webseite für das Fach Linux – Debian Installation (Karteikarten, Quiz, Zusammenfassungen) mit Node.js, Express und SQLite.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "express": "^4.21.2"
+  },
+  "license": "MIT",
+  "private": true
+}

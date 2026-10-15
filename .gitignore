@@ -1,0 +1,13 @@
+# Abhängigkeiten
+node_modules/
+
+# SQLite-Datenbank & Lernfortschritt (wird beim ersten Start automatisch erzeugt)
+db/learn.db
+db/learn.db-shm
+db/learn.db-wal
+
+# Logs / Systemdateien
+npm-debug.log*
+*.log
+.DS_Store
+Thumbs.db
